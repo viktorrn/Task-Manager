@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/viktorrn/Task-Manager/issues"
   },
-  "homepage": "https://github.com/viktorrn/Task-Manager#readme"
+  "homepage": "https://github.com/viktorrn/Task-Manager#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
