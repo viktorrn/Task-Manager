@@ -1,8 +1,20 @@
 <!DOCTYPE html>
-<head></head>
-<body style="background-color: rgb(255, 255, 255);">
-    <div class="screen" style="width:100%; height: auto; " tabindex="0" >
-        <span tabindex="0" id="output" style="white-space:pre;"> </span>
+<head>
+    <style>
+        textarea{
+            font-size: 2em;
+        }
+        textarea:focus{
+            outline: 0px;
+        }
+        textarea:active{
+            border:0px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(186, 144, 144);">
+    <div class="pill" style="width:640px; border-radius: 50px; padding: 10px; background-color: aliceblue; ">
+        <textarea tabindex="0" name="text" rows="3" cols="40" wrap="soft" maxlength="123" style="border: 0px; resize:none; background-color: aliceblue; margin-left: 20px;"  ></textarea >
     </div>
     <script src="manager.js"></script>
 </body>
